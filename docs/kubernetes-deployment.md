@@ -172,12 +172,12 @@ state in the cluster.
 ## Kubernetes Deployment Summary
 The Kubernetes deployment provides the
 following capabilities:
-• Container orchestration
-• Automated pod management
-• Horizontal scaling
-• Rolling updates
-• Self-healing infrastructure
-• Service-based networking
+-Container orchestration
+- Automated pod management
+- Horizontal scaling
+- Rolling updates
+- Self-healing infrastructure
+- Service-based networking
 
 This setup ensures that the ML application runs
 reliably inside a Kubernetes cluster and can
