@@ -1,10 +1,10 @@
-ML GitOps Automation Platform
+# ML GitOps Automation Platform
 
 A production-style DevOps pipeline demonstrating GitOps-based deployment of a FastAPI machine learning application using Docker, Kubernetes, ArgoCD, and automated CI/CD workflows with GitHub Actions. The platform includes automated image builds, GitOps deployments, observability with Prometheus and Grafana, and production-style reliability features such as rolling updates, scaling, and self-healing.
 
 ---
 
-Live Application
+## Live Application
 
 Live demo of the deployed application:
 
@@ -14,7 +14,7 @@ https://ml-gitops-app.onrender.com
 
 ---
 
-GitHub Repositories
+## GitHub Repositories
 
 This project is organized into two repositories following GitOps principles.
 
@@ -32,13 +32,13 @@ https://github.com/Krishna8934/ml-gitops-manifests
 
 ---
 
-Technology Stack
+## Technology Stack
 
 FastAPI • Python • Docker • Kubernetes (Minikube) • GitHub Actions • ArgoCD • Prometheus • Grafana • Render
 
 ---
 
-Key Features
+## Key Features
 
 CI pipeline automatically builds Docker images
 GitOps deployment using ArgoCD
@@ -50,7 +50,7 @@ Grafana dashboards
 
 ---
 
-System Architecture
+## System Architecture
 
 The platform demonstrates a complete GitOps-based DevOps pipeline for deploying a machine learning API.
 The architecture integrates CI automation, containerization, Kubernetes orchestration, GitOps deployment, and monitoring.
@@ -59,7 +59,7 @@ architecture/complete automation flow.png
 
 ---
 
-CI/CD Pipeline
+## CI/CD Pipeline
 
 The project implements an automated CI pipeline using GitHub Actions.
 
@@ -75,7 +75,7 @@ This automated pipeline ensures that every code change results in a new containe
 
 ---
 
-GitOps Deployment with ArgoCD
+## GitOps Deployment with ArgoCD
 
 The platform follows GitOps principles for Kubernetes deployments.
 
@@ -90,7 +90,7 @@ This enables:
 
 ---
 
-Kubernetes Deployment
+## Kubernetes Deployment
 
 The application runs inside a Kubernetes cluster using a Deployment and Service configuration.
 
@@ -104,7 +104,7 @@ Key capabilities include:
 
 ---
 
-Observability & Monitoring
+## Observability & Monitoring
 
 The platform includes a monitoring stack using Prometheus and Grafana.
 
@@ -119,7 +119,7 @@ Grafana dashboards visualize these metrics in real time, enabling performance mo
 
 ---
 
-Production Simulation
+## Production Simulation
 
 To demonstrate production reliability, several real-world scenarios were tested:
 
@@ -132,11 +132,11 @@ These tests validate the resilience and automation capabilities of the platform.
 
 ---
 
-System Screenshots
+## System Screenshots
 
 This section demonstrates the working of the complete DevOps pipeline including CI automation, Kubernetes deployment, GitOps synchronization, monitoring, and production simulations.
 
-1. GitHub Actions CI Pipeline
+### 1. GitHub Actions CI Pipeline
 
 CI pipeline successfully building the application and triggering automated workflows.
 
@@ -144,13 +144,13 @@ CI pipeline successfully building the application and triggering automated workf
 
 ![GitHub Actions Build](screenshots/github-actions-build-success.png)
 
-2. Docker Image Build
+### 2. Docker Image Build
 
 Docker image built successfully before deployment.
 
 ![Docker Images](screenshots/docker-image-built.png)
 
-3. Kubernetes Deployment
+### 3. Kubernetes Deployment
 
 Application deployed inside Kubernetes cluster.
 
@@ -159,7 +159,7 @@ Application deployed inside Kubernetes cluster.
 ![Kubernetes Pods](screenshots/kubernetes-pods-running.png)
 
 
-4. Kubernetes Self Healing
+### 4. Kubernetes Self Healing
 
 Demonstrating Kubernetes self-healing where deleted pods are automatically recreated.
 
@@ -168,7 +168,7 @@ Demonstrating Kubernetes self-healing where deleted pods are automatically recre
 ![Kubernetes Self Healing 2](screenshots/kubectl-self-healing2.png)
 
 
-5. ArgoCD GitOps Deployment
+### 5. ArgoCD GitOps Deployment
 
 ArgoCD automatically syncing the Kubernetes manifests from the Git repository.
 
@@ -179,7 +179,7 @@ ArgoCD automatically syncing the Kubernetes manifests from the Git repository.
 ![ArgoCD Deployment Tree](screenshots/argo-cd-deployment-tree.png)
 
 
-6. Prometheus Monitoring
+### 6. Prometheus Monitoring
 
 Prometheus collecting application metrics and monitoring system targets.
 
@@ -190,7 +190,7 @@ Prometheus collecting application metrics and monitoring system targets.
 ![Prometheus Targets](screenshots/prometheus-targets.png)
 
 
-7. CI Driven Image Updates
+### 7. CI Driven Image Updates
 
 Automatic image updates through CI triggering GitOps deployment.
 
@@ -199,14 +199,14 @@ Automatic image updates through CI triggering GitOps deployment.
 ![CI Image Update](screenshots/argocd-ci-image-update.png)
 
 
-8. GitOps Monitoring Integration
+### 8. GitOps Monitoring Integration
 
 Prometheus monitoring integrated into the GitOps deployment pipeline.
 
 ![ArgoCD Monitoring](screenshots/argocd-prometheus-monitoring.png)
 
 
- 9. Resource Management & Scaling
+ ### 9. Resource Management & Scaling
 
 Demonstrating Kubernetes resource limits and scaling capabilities.
 
@@ -215,7 +215,7 @@ Demonstrating Kubernetes resource limits and scaling capabilities.
 ![Scaled Deployment](screenshots/argocd-scaled-deployment.png)
 
 
-10. Grafana Dashboards
+### 10. Grafana Dashboards
 
 Grafana dashboards visualizing cluster performance and request metrics.
 
@@ -231,7 +231,7 @@ Grafana dashboards visualizing cluster performance and request metrics.
 
 ---
 
-Author
+## Author
 
 Name: Krishna Mishra
 
