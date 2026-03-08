@@ -40,12 +40,12 @@ FastAPI • Python • Docker • Kubernetes (Minikube) • GitHub Actions • A
 
 ## Key Features
 
-CI pipeline automatically builds Docker images
-GitOps deployment using ArgoCD
-Rolling updates in Kubernetes
-Self-healing pods
-Horizontal scaling
-Prometheus metrics
+CI pipeline automatically builds Docker images ,
+GitOps deployment using ArgoCD,
+Rolling updates in Kubernetes,
+Self-healing pods,
+Horizontal scaling,
+Prometheus metrics,
 Grafana dashboards
 
 ---
