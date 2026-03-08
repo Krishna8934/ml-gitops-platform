@@ -142,92 +142,92 @@ CI pipeline successfully building the application and triggering automated workf
 
 ![GitHub Actions CI](screenshots/ci-pipeline-success.png)
 
-![GitHub Actions Build](screenshots/2 github actions build success.png)
+![GitHub Actions Build](screenshots/github-actions-build-success.png)
 
 2. Docker Image Build
 
 Docker image built successfully before deployment.
 
-![Docker Images](screenshots/3 docker images built.png)
+![Docker Images](screenshots/docker-image-built.png)
 
 3. Kubernetes Deployment
 
 Application deployed inside Kubernetes cluster.
 
-![Kubernetes Service](screenshots/4 kubernetes service nodeport.png)
+![Kubernetes Service](screenshots/kubernetes-service-nodeport.png)
 
-![Kubernetes Pods](screenshots/5 kubernetes pods running.png)
+![Kubernetes Pods](screenshots/kubernetes-pods-running.png)
 
 
 4. Kubernetes Self Healing
 
 Demonstrating Kubernetes self-healing where deleted pods are automatically recreated.
 
-![Kubernetes Self Healing](screenshots/6 kubectl self healing.png)
+![Kubernetes Self Healing](screenshots/kubectl-self-healing.png)
 
-![Kubernetes Self Healing 2](screenshots/22 kubectl self healing.png)
+![Kubernetes Self Healing 2](screenshots/kubectl-self-healing2.png)
 
 
 5. ArgoCD GitOps Deployment
 
 ArgoCD automatically syncing the Kubernetes manifests from the Git repository.
 
-![ArgoCD OutOfSync](screenshots/7 argocd outofsync.png)
+![ArgoCD OutOfSync](screenshots/argocd-outofsync.png)
 
-![ArgoCD Sync Success](screenshots/8 argocd sync success.png)
+![ArgoCD Sync Success](screenshots/argocd-sync-success.png)
 
-![ArgoCD Deployment Tree](screenshots/9 argo cd deployment tree.png)
+![ArgoCD Deployment Tree](screenshots/argo-cd-deployment-tree.png)
 
 
 6. Prometheus Monitoring
 
 Prometheus collecting application metrics and monitoring system targets.
 
-![Prometheus Query](screenshots/11 prometheus query requests.png)
+![Prometheus Query](screenshots/prometheus-query-requests.png)
 
-![FastAPI Metrics](screenshots/12 fastapi metrics endpoint.png)
+![FastAPI Metrics](screenshots/fastapi-metrics-endpoint.png)
 
-![Prometheus Targets](screenshots/16 prometheus targets.png)
+![Prometheus Targets](screenshots/prometheus-targets.png)
 
 
 7. CI Driven Image Updates
 
 Automatic image updates through CI triggering GitOps deployment.
 
-![ArgoCD Image Update](screenshots/17 argocd image version update.png)
+![ArgoCD Image Update](screenshots/argocd-image-version-update.png)
 
-![CI Image Update](screenshots/18 argocd ci image update.png)
+![CI Image Update](screenshots/argocd-ci-image-update.png)
 
 
 8. GitOps Monitoring Integration
 
 Prometheus monitoring integrated into the GitOps deployment pipeline.
 
-![ArgoCD Monitoring](screenshots/19 argocd prometheus monitoring.png)
+![ArgoCD Monitoring](screenshots/argocd-prometheus-monitoring.png)
 
 
  9. Resource Management & Scaling
 
 Demonstrating Kubernetes resource limits and scaling capabilities.
 
-![Resource Limits](screenshots/20 argocd resource limits update.png)
+![Resource Limits](screenshots/argocd-resource-limits-update.png)
 
-![Scaled Deployment](screenshots/21 argocd scaled deployment.png)
+![Scaled Deployment](screenshots/argocd-scaled-deployment.png)
 
 
 10. Grafana Dashboards
 
 Grafana dashboards visualizing cluster performance and request metrics.
 
-![Grafana Cluster](screenshots/23 grafana cluster dashboard.png)
+![Grafana Cluster](screenshots/grafana-cluster-dashboard.png)
 
-![Grafana Node Monitoring](screenshots/24 grafana node monitoring.png)
+![Grafana Node Monitoring](screenshots/grafana-node-monitoring.png)
 
-![Grafana Request Metrics](screenshots/25 grafana request metrics.png)
+![Grafana Request Metrics](screenshots/grafana-request-metrics.png)
 
-![Grafana Prometheus Query](screenshots/14 grafana prometheus query png.png)
+![Grafana Prometheus Query](screenshots/grafana-prometheus-query-png.png)
 
-![Grafana Request Rate](screenshots/26 grafan prometheus requests rate.png)
+![Grafana Request Rate](screenshots/grafan-prometheus-requests-rate.png)
 
 ---
 
