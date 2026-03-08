@@ -140,7 +140,7 @@ This section demonstrates the working of the complete DevOps pipeline including 
 
 CI pipeline successfully building the application and triggering automated workflows.
 
-![GitHub Actions CI](screenshots/1 github actions ci success.png)
+![GitHub Actions CI](screenshots/ci-pipeline-success.png)
 
 ![GitHub Actions Build](screenshots/2 github actions build success.png)
 
