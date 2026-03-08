@@ -80,11 +80,15 @@ Example image update:
 
 image: username/ml-gitops-app:v2
 
+---
+
 ### Step 3 — Manifest Repository is Updated
 
 The Cl pipeline commits the updated deployment configuration to the manifest repository.
 This repository stores the desired state of the
 Kubernetes cluster.
+
+---
 
 ### Step 4 — ArgoCD Detects Changes
 ArgoCD continuously monitors the manifest
@@ -94,6 +98,7 @@ When a new commit appears:
 • ArgoCD detects the change
 • The application status becomes OutOfSync
 
+---
 
 ### Step 5 — ArgoCD Synchronizes the Cluster
 ArgoCD automatically synchronizes the
@@ -104,6 +109,8 @@ During synchronization:
 • Kubernetes resources are updated
 • The cluster state matches the Git repository
 
+---
+
 ### Step 6 — Application is Updated in Kubernetes
 Kubernetes performs a rolling update.
 This means:
@@ -111,6 +118,8 @@ This means:
 • Old pods are gradually terminated
 • The application remains available during deployment
 This ensures zero downtime updates.
+
+---
 
 ## GitOps Benefits Demonstrated
 The project demonstrates several advantages of
@@ -139,10 +148,11 @@ ArgoCD provides a visual interface showing:
 
 Common states:
 
-Status             Meaning
-Healthy            Application running correctly
-OutOfSync          Cluster differs from Git configuration
-Synced             Cluster matches Git configuration 
+| Status | Meaning |
+|-------|--------|
+| Healthy | Application running correctly |
+| OutOfSync | Cluster differs from Git configuration |
+| Synced | Cluster matches Git configuration |
 
 ## GitOps Workflow Summary
 The complete GitOps workflow is:
